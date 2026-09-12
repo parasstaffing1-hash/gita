@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 1,
+  "bundleName": "gita-topics-curated",
+  "description": "Curated life-situation topics for the Explore section. Verse mappings are editorial choices, never computed at request time. Currently mapped only to the development placeholder verses; full curation follows the verified dataset.",
+  "authoritative": false,
+  "generatedAt": null,
+  "licenses": [
+    {
+      "code": "editorial-inhouse",
+      "name": "In-house editorial content",
+      "url": null,
+      "redistributable": true,
+      "requiresAttribution": false,
+      "commercialUseAllowed": true,
+      "notes": "Original prose written for this product. Not scripture."
+    }
+  ],
+  "sources": [
+    {
+      "key": "editorial-topics",
+      "name": "In-house topic curation",
+      "sourceUrl": null,
+      "author": null,
+      "publication": null,
+      "publicationYear": null,
+      "licenseCode": "editorial-inhouse",
+      "copyrightStatus": "public_domain",
+      "dateAccessed": null,
+      "reviewer": null,
+      "verificationNotes": "Editorial introductions and verse mappings written for this product. Needs review by someone with the relevant scholarly background before publication."
+    }
+  ],
+  "topics": [
+    {
+      "slug": "anger",
+      "name": "Anger",
+      "nameHindi": "क्रोध",
+      "category": "emotion",
+      "icon": "flame",
+      "shortDescription": "Where anger comes from, and what the Gita suggests doing about it.",
+      "introduction": "The Gita does not treat anger as a moral failing to be ashamed of. It treats it as the end of a chain that starts much earlier - in what the mind keeps returning to. That is useful, because it means the place to intervene is upstream of the anger itself.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "krodha",
+        "kama",
+        "attachment",
+        "self-control"
+      ],
+      "relatedTopicSlugs": [
+        "fear",
+        "self-control",
+        "attachment"
+      ],
+      "sortOrder": 0,
+      "verses": [
+        {
+          "ref": "2.62",
+          "relevance": 0.95,
+          "note": "The chain: dwelling on objects, attachment, desire, anger."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "fear",
+      "name": "Fear",
+      "nameHindi": "भय",
+      "category": "emotion",
+      "icon": "shield",
+      "shortDescription": "Fear of loss, of failure, of death - and the ground the Gita offers under it.",
+      "introduction": "Much of what is called fear is fear of losing something. The Gita's response is not reassurance that nothing will be lost. It is a claim about what cannot be lost, and a reframing of duty that does not depend on the outcome being safe.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "abhaya",
+        "atman",
+        "impermanence"
+      ],
+      "relatedTopicSlugs": [
+        "anxiety",
+        "death",
+        "duty"
+      ],
+      "sortOrder": 1,
+      "verses": [
+        {
+          "ref": "2.20",
+          "relevance": 0.9,
+          "note": "What is not destroyed when the body is."
+        },
+        {
+          "ref": "3.35",
+          "relevance": 0.7,
+          "note": "Another's duty, however attractive, brings danger."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "anxiety",
+      "name": "Anxiety",
+      "nameHindi": "चिंता",
+      "category": "emotion",
+      "icon": "wave",
+      "shortDescription": "The restlessness of a mind rehearsing outcomes it cannot control.",
+      "introduction": "Anxiety usually lives in the future tense. The Gita's central practical instruction - a claim on the action, not on the fruit - is aimed exactly there. It does not promise outcomes will be good. It relocates where your effort belongs.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "karma-phala",
+        "equanimity",
+        "present action"
+      ],
+      "relatedTopicSlugs": [
+        "fear",
+        "stress",
+        "detachment"
+      ],
+      "sortOrder": 2,
+      "verses": [
+        {
+          "ref": "2.47",
+          "relevance": 0.95,
+          "note": "The claim is on the action, never on the fruit."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "stress",
+      "name": "Stress",
+      "nameHindi": "तनाव",
+      "category": "emotion",
+      "icon": "knot",
+      "shortDescription": "Pressure, overwork, and the question of what is actually yours to carry.",
+      "introduction": "Stress often comes from carrying two things at once: the work, and the verdict on the work. The Gita separates them, and is unusually practical about moderation in eating, sleeping and working as part of the same discipline.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "yoga",
+        "moderation",
+        "karma-yoga"
+      ],
+      "relatedTopicSlugs": [
+        "anxiety",
+        "discipline",
+        "meditation"
+      ],
+      "sortOrder": 3,
+      "verses": [
+        {
+          "ref": "2.47",
+          "relevance": 0.85,
+          "note": "Separating the work from the verdict on the work."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "grief",
+      "name": "Grief",
+      "nameHindi": "शोक",
+      "category": "emotion",
+      "icon": "leaf",
+      "shortDescription": "The Gita begins in grief; it does not begin by dismissing it.",
+      "introduction": "The entire dialogue is occasioned by grief. Arjuna's despondency is given a full chapter before any answer is offered, and the answer, when it comes, is about what persists.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "vishada",
+        "atman",
+        "impermanence"
+      ],
+      "relatedTopicSlugs": [
+        "death",
+        "fear",
+        "loneliness"
+      ],
+      "sortOrder": 4,
+      "verses": [
+        {
+          "ref": "1.1",
+          "relevance": 0.6,
+          "note": "The setting in which the grief arises."
+        },
+        {
+          "ref": "2.13",
+          "relevance": 0.9,
+          "note": "Change of body compared to change of age."
+        },
+        {
+          "ref": "2.20",
+          "relevance": 0.85,
+          "note": "That which is not born and does not die."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "jealousy",
+      "name": "Jealousy",
+      "nameHindi": "ईर्ष्या",
+      "category": "emotion",
+      "icon": "mirror",
+      "shortDescription": "Comparison, and the confusion of another's path with your own.",
+      "introduction": "Jealousy assumes that someone else's role would have been better for you. The Gita's answer is svadharma: your own work, imperfectly done, is still the work that is yours.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "svadharma",
+        "comparison",
+        "contentment"
+      ],
+      "relatedTopicSlugs": [
+        "career",
+        "purpose",
+        "duty"
+      ],
+      "sortOrder": 5,
+      "verses": [
+        {
+          "ref": "3.35",
+          "relevance": 0.9,
+          "note": "One's own duty, imperfect, over another's done well."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "loneliness",
+      "name": "Loneliness",
+      "nameHindi": "अकेलापन",
+      "category": "emotion",
+      "icon": "moon",
+      "shortDescription": "Being alone, and the self as its own companion.",
+      "introduction": "The Gita's response to isolation is unexpectedly self-reliant: it points to a relationship with oneself before pointing anywhere else.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "atman",
+        "self-reliance",
+        "friendship"
+      ],
+      "relatedTopicSlugs": [
+        "grief",
+        "meditation",
+        "self-control"
+      ],
+      "sortOrder": 6,
+      "verses": [
+        {
+          "ref": "6.5",
+          "relevance": 0.9,
+          "note": "The self as its own friend, or its own enemy."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "confusion",
+      "name": "Confusion",
+      "nameHindi": "भ्रम",
+      "category": "emotion",
+      "icon": "compass",
+      "shortDescription": "Not knowing what the right thing to do is.",
+      "introduction": "Arjuna's problem is not weakness of will. He genuinely cannot see which action is right - every option violates something he holds. This is the condition the Gita is addressed to.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "moha",
+        "dharma",
+        "discernment"
+      ],
+      "relatedTopicSlugs": [
+        "decision-making",
+        "duty",
+        "purpose"
+      ],
+      "sortOrder": 7,
+      "verses": [
+        {
+          "ref": "1.1",
+          "relevance": 0.7,
+          "note": "The two sides, and the question that opens the dialogue."
+        },
+        {
+          "ref": "3.35",
+          "relevance": 0.8,
+          "note": "A criterion when several courses look defensible."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "attachment",
+      "name": "Attachment",
+      "nameHindi": "आसक्ति",
+      "category": "emotion",
+      "icon": "thread",
+      "shortDescription": "Holding on, and what holding on costs.",
+      "introduction": "Attachment in the Gita is not affection. It is the dependence of your steadiness on a particular outcome, and it is described as the hinge on which desire and anger turn.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "sanga",
+        "kama",
+        "vairagya"
+      ],
+      "relatedTopicSlugs": [
+        "anger",
+        "anxiety",
+        "detachment"
+      ],
+      "sortOrder": 8,
+      "verses": [
+        {
+          "ref": "2.62",
+          "relevance": 0.9,
+          "note": "Attachment as the step between dwelling and desire."
+        },
+        {
+          "ref": "2.47",
+          "relevance": 0.8,
+          "note": "Non-attachment to the fruit, without withdrawal from the work."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "motivation",
+      "name": "Lack of motivation",
+      "nameHindi": "उत्साहहीनता",
+      "category": "emotion",
+      "icon": "spark",
+      "shortDescription": "When the work feels pointless, or too heavy to start.",
+      "introduction": "The Gita takes seriously the state of not wanting to act, and answers it twice: first that inaction is not actually available, and second that the self can lift itself.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "karma",
+        "self-effort",
+        "discipline"
+      ],
+      "relatedTopicSlugs": [
+        "discipline",
+        "purpose",
+        "stress"
+      ],
+      "sortOrder": 9,
+      "verses": [
+        {
+          "ref": "6.5",
+          "relevance": 0.9,
+          "note": "Lift yourself by yourself."
+        },
+        {
+          "ref": "2.47",
+          "relevance": 0.75,
+          "note": "Where effort properly belongs."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "career",
+      "name": "Career",
+      "nameHindi": "आजीविका",
+      "category": "life",
+      "icon": "path",
+      "shortDescription": "Choosing work, and doing it without being consumed by it.",
+      "introduction": "The Gita's vocabulary for work - svadharma, karma-yoga, the fruit of action - maps onto career questions unusually well, provided you do not read it as advice to stop caring.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "svadharma",
+        "karma-yoga",
+        "excellence"
+      ],
+      "relatedTopicSlugs": [
+        "purpose",
+        "duty",
+        "success"
+      ],
+      "sortOrder": 100,
+      "verses": [
+        {
+          "ref": "3.35",
+          "relevance": 0.9,
+          "note": "Your own work over a more prestigious one."
+        },
+        {
+          "ref": "2.47",
+          "relevance": 0.85,
+          "note": "Effort and outcome, separated."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "business",
+      "name": "Business",
+      "nameHindi": "व्यवसाय",
+      "category": "life",
+      "icon": "scale",
+      "shortDescription": "Enterprise, risk and the discipline of not being ruled by results.",
+      "introduction": "Building something means living with uncertain outcomes for long stretches. The Gita's framing gives a way to stay engaged without being governed by the quarterly verdict.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "karma-yoga",
+        "risk",
+        "steadiness"
+      ],
+      "relatedTopicSlugs": [
+        "career",
+        "leadership",
+        "money"
+      ],
+      "sortOrder": 101,
+      "verses": [
+        {
+          "ref": "2.47",
+          "relevance": 0.85,
+          "note": "Sustained effort without dependence on the result."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "studies",
+      "name": "Studies",
+      "nameHindi": "अध्ययन",
+      "category": "life",
+      "icon": "book",
+      "shortDescription": "Learning, examinations, and steadiness under evaluation.",
+      "introduction": "For a student, the gap between effort and result is unusually visible. That is exactly the gap the Gita addresses.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "abhyasa",
+        "discipline",
+        "concentration"
+      ],
+      "relatedTopicSlugs": [
+        "discipline",
+        "anxiety",
+        "motivation"
+      ],
+      "sortOrder": 102,
+      "verses": [
+        {
+          "ref": "2.47",
+          "relevance": 0.9,
+          "note": "The claim is on preparation, not on the mark."
+        },
+        {
+          "ref": "6.5",
+          "relevance": 0.8,
+          "note": "Self-reliance in study."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "failure",
+      "name": "Failure",
+      "nameHindi": "असफलता",
+      "category": "life",
+      "icon": "stone",
+      "shortDescription": "When it did not work, and what that does and does not mean about you.",
+      "introduction": "If your worth is attached to the outcome, failure is an identity event. The Gita's separation of action from fruit is, among other things, a way of surviving it.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "karma-phala",
+        "equanimity",
+        "resilience"
+      ],
+      "relatedTopicSlugs": [
+        "success",
+        "fear",
+        "motivation"
+      ],
+      "sortOrder": 103,
+      "verses": [
+        {
+          "ref": "2.47",
+          "relevance": 0.9,
+          "note": "Outcome was never the part you owned."
+        },
+        {
+          "ref": "6.5",
+          "relevance": 0.85,
+          "note": "Do not let yourself sink."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "success",
+      "name": "Success",
+      "nameHindi": "सफलता",
+      "category": "life",
+      "icon": "sun",
+      "shortDescription": "Doing well without being owned by it.",
+      "introduction": "The Gita treats success and failure with the same instruction, which is a stronger claim than it first appears: equanimity is not only for the bad days.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "equanimity",
+        "yoga",
+        "detachment"
+      ],
+      "relatedTopicSlugs": [
+        "failure",
+        "career",
+        "leadership"
+      ],
+      "sortOrder": 104,
+      "verses": [
+        {
+          "ref": "2.47",
+          "relevance": 0.85,
+          "note": "The same footing in success as in failure."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "relationships",
+      "name": "Relationships",
+      "nameHindi": "संबंध",
+      "category": "life",
+      "icon": "knot",
+      "shortDescription": "Duty, affection and conflict with the people closest to you.",
+      "introduction": "Arjuna's crisis is a relationship crisis: the people on the other side are his teachers and cousins. The Gita does not resolve this by making the relationships matter less.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "dharma",
+        "attachment",
+        "duty"
+      ],
+      "relatedTopicSlugs": [
+        "attachment",
+        "duty",
+        "grief"
+      ],
+      "sortOrder": 105,
+      "verses": [
+        {
+          "ref": "1.1",
+          "relevance": 0.7,
+          "note": "Kinsmen on both sides."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "money",
+      "name": "Money",
+      "nameHindi": "धन",
+      "category": "life",
+      "icon": "coin",
+      "shortDescription": "Wealth as an instrument, and the trouble of treating it as the point.",
+      "introduction": "The Gita is not ascetic about wealth. It is precise about what happens when acquisition becomes the aim rather than the means.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "artha",
+        "kama",
+        "moderation"
+      ],
+      "relatedTopicSlugs": [
+        "business",
+        "success",
+        "attachment"
+      ],
+      "sortOrder": 106,
+      "verses": [
+        {
+          "ref": "2.62",
+          "relevance": 0.75,
+          "note": "How wanting escalates."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "leadership",
+      "name": "Leadership",
+      "nameHindi": "नेतृत्व",
+      "category": "life",
+      "icon": "flag",
+      "shortDescription": "Responsibility for others, and setting the standard by what you do.",
+      "introduction": "The Gita's account of leadership is behavioural: people follow what the capable person actually does, not what they recommend.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "svadharma",
+        "example",
+        "responsibility"
+      ],
+      "relatedTopicSlugs": [
+        "career",
+        "duty",
+        "discipline"
+      ],
+      "sortOrder": 107,
+      "verses": [
+        {
+          "ref": "3.35",
+          "relevance": 0.8,
+          "note": "Doing your own work rather than a more visible one."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "decision-making",
+      "name": "Decision making",
+      "nameHindi": "निर्णय",
+      "category": "life",
+      "icon": "fork",
+      "shortDescription": "Choosing when the options are all costly.",
+      "introduction": "The Gita's situation is not a choice between good and bad. It is a choice between two things that both violate something. That is what makes it useful.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "dharma",
+        "discernment",
+        "svadharma"
+      ],
+      "relatedTopicSlugs": [
+        "confusion",
+        "duty",
+        "purpose"
+      ],
+      "sortOrder": 108,
+      "verses": [
+        {
+          "ref": "3.35",
+          "relevance": 0.9,
+          "note": "A criterion when several courses look defensible."
+        },
+        {
+          "ref": "1.1",
+          "relevance": 0.6,
+          "note": "The shape of the dilemma."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "discipline",
+      "name": "Discipline",
+      "nameHindi": "अनुशासन",
+      "category": "life",
+      "icon": "rope",
+      "shortDescription": "Practice, repetition, and a mind that will not sit still.",
+      "introduction": "The Gita is candid that the mind is hard to steady, and answers with two words rather than encouragement: practice and dispassion.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "abhyasa",
+        "vairagya",
+        "tapas"
+      ],
+      "relatedTopicSlugs": [
+        "meditation",
+        "self-control",
+        "motivation"
+      ],
+      "sortOrder": 109,
+      "verses": [
+        {
+          "ref": "6.5",
+          "relevance": 0.9,
+          "note": "Self-effort as the mechanism."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "purpose",
+      "name": "Purpose",
+      "nameHindi": "उद्देश्य",
+      "category": "life",
+      "icon": "star",
+      "shortDescription": "What your work is for.",
+      "introduction": "Purpose in the Gita is closer to fit than to ambition: the work that is yours, done in the right spirit, rather than the most impressive work available.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "svadharma",
+        "dharma",
+        "vocation"
+      ],
+      "relatedTopicSlugs": [
+        "career",
+        "duty",
+        "decision-making"
+      ],
+      "sortOrder": 110,
+      "verses": [
+        {
+          "ref": "3.35",
+          "relevance": 0.95,
+          "note": "Svadharma stated directly."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "duty",
+      "name": "Duty",
+      "nameHindi": "कर्तव्य",
+      "category": "life",
+      "icon": "anchor",
+      "shortDescription": "Dharma: obligation that does not depend on how you feel about it.",
+      "introduction": "Dharma is the Gita's central and least translatable term. It is not law, and not preference. It is what is genuinely yours to do, given who and where you are.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "dharma",
+        "svadharma",
+        "karma"
+      ],
+      "relatedTopicSlugs": [
+        "purpose",
+        "decision-making",
+        "leadership"
+      ],
+      "sortOrder": 111,
+      "verses": [
+        {
+          "ref": "3.35",
+          "relevance": 0.95,
+          "note": "Svadharma over paradharma."
+        },
+        {
+          "ref": "2.47",
+          "relevance": 0.85,
+          "note": "How duty is to be performed."
+        },
+        {
+          "ref": "4.7",
+          "relevance": 0.7,
+          "note": "Dharma as something that can decline and be restored."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "death",
+      "name": "Death",
+      "nameHindi": "मृत्यु",
+      "category": "life",
+      "icon": "horizon",
+      "shortDescription": "Mortality, and what the Gita says persists.",
+      "introduction": "The Gita's treatment of death is neither consoling nor evasive. It makes a claim about what is and is not destroyed, and lets the rest follow from that.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "atman",
+        "impermanence",
+        "moksha"
+      ],
+      "relatedTopicSlugs": [
+        "grief",
+        "fear",
+        "meditation"
+      ],
+      "sortOrder": 112,
+      "verses": [
+        {
+          "ref": "2.13",
+          "relevance": 0.95,
+          "note": "Death as a change of body, like a change of age."
+        },
+        {
+          "ref": "2.20",
+          "relevance": 0.95,
+          "note": "Unborn, everlasting, not slain when the body is slain."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "meditation",
+      "name": "Meditation",
+      "nameHindi": "ध्यान",
+      "category": "life",
+      "icon": "lotus",
+      "shortDescription": "Sitting, steadying, and what to do with a wandering mind.",
+      "introduction": "Chapter six is the practical one: where to sit, how much to eat and sleep, and what to do when the mind refuses. Krishna agrees that it is hard.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "dhyana",
+        "abhyasa",
+        "concentration"
+      ],
+      "relatedTopicSlugs": [
+        "discipline",
+        "self-control",
+        "stress"
+      ],
+      "sortOrder": 113,
+      "verses": [
+        {
+          "ref": "6.5",
+          "relevance": 0.85,
+          "note": "The self as the instrument of its own steadying."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "self-control",
+      "name": "Self-control",
+      "nameHindi": "संयम",
+      "category": "life",
+      "icon": "reins",
+      "shortDescription": "Restraint that is not repression.",
+      "introduction": "The Gita's self-control is not suppression of feeling. It is the ability to not be moved by every impulse the senses report - which it describes as a skill, learned by practice.",
+      "introductionHindi": null,
+      "relatedConcepts": [
+        "samyama",
+        "indriya",
+        "abhyasa"
+      ],
+      "relatedTopicSlugs": [
+        "anger",
+        "discipline",
+        "meditation"
+      ],
+      "sortOrder": 114,
+      "verses": [
+        {
+          "ref": "2.62",
+          "relevance": 0.9,
+          "note": "What happens without restraint."
+        },
+        {
+          "ref": "6.5",
+          "relevance": 0.85,
+          "note": "The self as friend or enemy."
+        }
+      ],
+      "sourceKey": "editorial-topics",
+      "verificationStatus": "draft"
+    }
+  ]
+}

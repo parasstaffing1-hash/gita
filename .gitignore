@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Builds
+dist/
+build/
+.next/
+out/
+dist-android/
+dist-web/
+.turbo/
+*.tsbuildinfo
+.expo/
+android/
+ios/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Databases / generated content
+*.sqlite
+*.sqlite3
+*.db
+infrastructure/database/pgdata/
+content/**/*.generated.json
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+coverage/
+htmlcov/
+.coverage
+playwright-report/
+test-results/
+.DS_Store
+Thumbs.db
+*.log
+
+# Media
+# Wallpapers and audio are large binaries that are either generated from
+# `infrastructure/scripts/` or licensed separately, so they are reproducible
+# rather than authored here — git history is the wrong place for a gigabyte of
+# 4K JPEGs. `media/` is purely what the API serves locally while R2 is
+# unconfigured, so nothing in it is source at all.
+media/
+media-src/**/*.jpg
+media-src/**/*.jpeg
+media-src/**/*.png
+media-src/**/*.webp
+media-src/**/*.mp3
+media-src/**/*.m4a
+media-src/**/_derivatives/
+
+# The manifest is the opposite: it is the licence record for the set, it is
+# small, and losing it would leave a directory of images nobody can prove the
+# rights to. It stays tracked.
+!media-src/**/manifest.json

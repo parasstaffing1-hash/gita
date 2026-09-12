@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "bundleName": "gita-glossary",
+  "description": "Sanskrit term definitions for the in-app glossary. Editorial prose written for this product; where the commentarial traditions differ, the entry says so rather than picking a side.",
+  "authoritative": false,
+  "generatedAt": null,
+  "licenses": [
+    {
+      "code": "editorial-inhouse",
+      "name": "In-house editorial content",
+      "url": null,
+      "redistributable": true,
+      "requiresAttribution": false,
+      "commercialUseAllowed": true,
+      "notes": "Original prose written for this product. Not scripture."
+    }
+  ],
+  "sources": [
+    {
+      "key": "editorial-glossary",
+      "name": "In-house glossary",
+      "sourceUrl": null,
+      "author": null,
+      "publication": null,
+      "publicationYear": null,
+      "licenseCode": "editorial-inhouse",
+      "copyrightStatus": "public_domain",
+      "dateAccessed": null,
+      "reviewer": null,
+      "verificationNotes": "Definitions written for this product. Needs review by someone with Sanskrit competence before publication."
+    }
+  ],
+  "glossary": [
+    {
+      "slug": "dharma",
+      "termSanskrit": "धर्म",
+      "termTransliteration": "dharma",
+      "termEnglish": "Duty, right action, the order of things",
+      "simpleDefinition": "What is genuinely yours to do, given who and where you are. Not law, not preference, and not a rule you can look up.",
+      "detailedDefinition": "Dharma is the Gita's least translatable term, and translations that pin it to one English word lose it. It carries at once: the order that holds things together, the obligation that follows from your particular position, and right action as against adharma. In the Gita it is usually personal - svadharma, your own dharma - and the text is explicit that another person's dharma, however attractive, is not a safe substitute for it.",
+      "variants": [
+        "dharm",
+        "dhamma",
+        "dharmam"
+      ],
+      "synonyms": [
+        "duty",
+        "righteousness"
+      ],
+      "relatedTermSlugs": [
+        "karma",
+        "svadharma",
+        "adharma",
+        "moksha"
+      ],
+      "relatedVerses": [
+        "3.35",
+        "4.7"
+      ],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "karma",
+      "termSanskrit": "कर्म",
+      "termTransliteration": "karma",
+      "termEnglish": "Action, and its consequence",
+      "simpleDefinition": "Action - and, by extension, the consequence that follows from action.",
+      "detailedDefinition": "In ordinary speech karma has narrowed to mean fate or cosmic bookkeeping. In the Gita the word first means simply action, including breathing and thinking. Its argument is that action cannot be avoided, so the question is not whether to act but in what spirit. Action performed without grasping at its fruit is said not to bind; the same act performed for the result does.",
+      "variants": [
+        "karm",
+        "karman",
+        "kamma"
+      ],
+      "synonyms": [
+        "action",
+        "deed"
+      ],
+      "relatedTermSlugs": [
+        "dharma",
+        "karma-yoga",
+        "yajna"
+      ],
+      "relatedVerses": [
+        "2.47",
+        "3.35"
+      ],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "atman",
+      "termSanskrit": "आत्मन्",
+      "termTransliteration": "ātman",
+      "termEnglish": "The self",
+      "simpleDefinition": "The self - not the body, not the personality, not the passing states of mind.",
+      "detailedDefinition": "Atman is what the Gita says is not born and does not die. It is distinguished carefully from the body (which changes), the senses, the mind and the intellect. Whether atman is finally identical with Brahman is precisely the point on which the major commentarial traditions differ, and the Gita's own language is compatible with more than one reading.",
+      "variants": [
+        "atma",
+        "atman",
+        "aatma"
+      ],
+      "synonyms": [
+        "self",
+        "soul"
+      ],
+      "relatedTermSlugs": [
+        "brahman",
+        "jiva",
+        "moksha"
+      ],
+      "relatedVerses": [
+        "2.13",
+        "2.20",
+        "6.5"
+      ],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "brahman",
+      "termSanskrit": "ब्रह्मन्",
+      "termTransliteration": "brahman",
+      "termEnglish": "The absolute",
+      "simpleDefinition": "The unconditioned reality underlying everything that appears.",
+      "detailedDefinition": "Brahman in the Gita is what everything rests on and is not exhausted by. It is described as imperishable (akshara) and as the supreme goal. Do not confuse it with Brahma (the creator deity) or with brahmana (a member of the priestly class) - three distinct words that English transliteration tends to blur.",
+      "variants": [
+        "brahm",
+        "brahma"
+      ],
+      "synonyms": [
+        "the absolute"
+      ],
+      "relatedTermSlugs": [
+        "atman",
+        "moksha",
+        "aksharam"
+      ],
+      "relatedVerses": [
+        "8.3"
+      ],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "moksha",
+      "termSanskrit": "मोक्ष",
+      "termTransliteration": "mokṣa",
+      "termEnglish": "Liberation",
+      "simpleDefinition": "Release - from the cycle of birth and death, and from being driven by one's own reactions.",
+      "detailedDefinition": "Moksha is the traditional fourth and final goal of life, after dharma, artha and kama. The Gita's distinctive move is that it does not require withdrawal from the world: it describes liberation as available to someone acting fully in it, provided the acting is not done for the fruit.",
+      "variants": [
+        "moksh",
+        "mukti"
+      ],
+      "synonyms": [
+        "liberation",
+        "release"
+      ],
+      "relatedTermSlugs": [
+        "brahman",
+        "sannyasa",
+        "atman"
+      ],
+      "relatedVerses": [
+        "18.66"
+      ],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "yoga",
+      "termSanskrit": "योग",
+      "termTransliteration": "yoga",
+      "termEnglish": "Union; disciplined practice",
+      "simpleDefinition": "A discipline that joins - and in the Gita, a way of doing anything, not a set of postures.",
+      "detailedDefinition": "The Gita uses yoga in several senses, and each chapter is titled a yoga. It means union; it means the discipline that produces union; and famously in 2.50 it means skill in action. The three broad paths the text lays out are karma yoga (action), jnana yoga (knowledge) and bhakti yoga (devotion), and the Gita does not treat them as mutually exclusive.",
+      "variants": [
+        "yog"
+      ],
+      "synonyms": [
+        "union",
+        "discipline"
+      ],
+      "relatedTermSlugs": [
+        "karma",
+        "bhakti",
+        "jnana",
+        "dhyana"
+      ],
+      "relatedVerses": [
+        "2.47",
+        "6.5"
+      ],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "bhakti",
+      "termSanskrit": "भक्ति",
+      "termTransliteration": "bhakti",
+      "termEnglish": "Devotion",
+      "simpleDefinition": "Devotion - loving participation rather than transaction.",
+      "detailedDefinition": "Bhakti is the path of the twelfth chapter, and the Gita's most accessible: it explicitly says that a leaf, a flower, fruit or water offered with devotion is accepted, which places the path within reach of anyone regardless of learning or status. The chapter ends not with metaphysics but with a description of character.",
+      "variants": [
+        "bhakthi"
+      ],
+      "synonyms": [
+        "devotion"
+      ],
+      "relatedTermSlugs": [
+        "yoga",
+        "jnana",
+        "surrender"
+      ],
+      "relatedVerses": [],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "jnana",
+      "termSanskrit": "ज्ञान",
+      "termTransliteration": "jñāna",
+      "termEnglish": "Knowledge",
+      "simpleDefinition": "Knowledge - understanding that changes how you see, not information you hold.",
+      "detailedDefinition": "Jnana in the Gita is not scholarship. Chapter thirteen describes it as a list of dispositions - humility, absence of pretence, non-injury, patience, uprightness - which is a striking thing to call knowledge. Vijnana, often paired with it, is usually read as the realised or applied form of the same understanding.",
+      "variants": [
+        "gyan",
+        "gyaan",
+        "jnan"
+      ],
+      "synonyms": [
+        "knowledge",
+        "wisdom"
+      ],
+      "relatedTermSlugs": [
+        "yoga",
+        "bhakti",
+        "vijnana"
+      ],
+      "relatedVerses": [],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "gunas",
+      "termSanskrit": "गुण",
+      "termTransliteration": "guṇa",
+      "termEnglish": "The three qualities",
+      "simpleDefinition": "The three strands - sattva, rajas and tamas - that the Gita says everything in nature is woven from.",
+      "detailedDefinition": "Sattva is clarity and balance; rajas is activity, restlessness and craving; tamas is inertia, dullness and confusion. The Gita uses them diagnostically across chapters fourteen, seventeen and eighteen: faith, food, sacrifice, giving, knowledge, work and even the doer are each sorted by which guna predominates. Notably, even sattva is said to bind - by attachment to happiness and to knowing.",
+      "variants": [
+        "guna",
+        "gun"
+      ],
+      "synonyms": [
+        "qualities",
+        "modes"
+      ],
+      "relatedTermSlugs": [
+        "sattva",
+        "rajas",
+        "tamas",
+        "prakriti"
+      ],
+      "relatedVerses": [],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "sankhya",
+      "termSanskrit": "साङ्ख्य",
+      "termTransliteration": "sāṅkhya",
+      "termEnglish": "Analytical knowledge",
+      "simpleDefinition": "The analytical approach: understanding by carefully distinguishing what is what.",
+      "detailedDefinition": "Sankhya is one of the classical Indian philosophical systems, built on the distinction between purusha (consciousness) and prakriti (nature). The Gita uses the term more loosely than the later formal system does - in chapter two it means roughly the path of discriminative understanding, as against yoga meaning the path of disciplined action.",
+      "variants": [
+        "samkhya",
+        "sankhy"
+      ],
+      "synonyms": [
+        "analysis"
+      ],
+      "relatedTermSlugs": [
+        "prakriti",
+        "purusha",
+        "jnana"
+      ],
+      "relatedVerses": [],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "yajna",
+      "termSanskrit": "यज्ञ",
+      "termTransliteration": "yajña",
+      "termEnglish": "Sacrifice, offering",
+      "simpleDefinition": "Offering - and in the Gita, any action done as an offering rather than an acquisition.",
+      "detailedDefinition": "Yajna originally names the Vedic fire ritual. The Gita substantially widens it: chapter four lists many kinds of yajna, including the offering of knowledge, of the senses and of breath. The operative idea is that action performed as offering, without personal grasping, does not bind the actor.",
+      "variants": [
+        "yagna",
+        "yagya",
+        "yajn"
+      ],
+      "synonyms": [
+        "sacrifice",
+        "offering"
+      ],
+      "relatedTermSlugs": [
+        "karma",
+        "dharma"
+      ],
+      "relatedVerses": [],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "maya",
+      "termSanskrit": "माया",
+      "termTransliteration": "māyā",
+      "termEnglish": "The veiling power",
+      "simpleDefinition": "What makes the underlying reality difficult to see.",
+      "detailedDefinition": "Maya is often translated 'illusion', which overstates it. In the Gita it is closer to a veiling or measuring power - the divine's own, and hard to get past. The text does not say the world is unreal; it says something about the world makes what underlies it hard to perceive. Later Advaita develops the term considerably further than the Gita itself does.",
+      "variants": [
+        "maaya"
+      ],
+      "synonyms": [
+        "illusion"
+      ],
+      "relatedTermSlugs": [
+        "prakriti",
+        "brahman",
+        "gunas"
+      ],
+      "relatedVerses": [
+        "7.14"
+      ],
+      "sourceKeys": [
+        "editorial-glossary"
+      ],
+      "verificationStatus": "draft"
+    }
+  ]
+}

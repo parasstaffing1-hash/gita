@@ -1,0 +1,29 @@
+# Local development stack.
+# Intentionally minimal: one Postgres with the extensions the product needs.
+# No Kubernetes, no Elasticsearch, no separate vector database.
+services:
+  postgres:
+    # pgvector image is Postgres 16 + the vector extension pre-built.
+    image: pgvector/pgvector:pg16
+    container_name: gita-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: gita
+      POSTGRES_PASSWORD: gita
+      POSTGRES_DB: gita
+      # Devanagari + transliteration sort correctly under C.UTF-8.
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8 --locale=C.UTF-8"
+    ports:
+      # 5433 on the host to avoid clashing with a local Postgres on 5432.
+      - "5433:5432"
+    volumes:
+      - gita-pgdata:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gita -d gita"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  gita-pgdata:

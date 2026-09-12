@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Semantic colours as CSS variables so light, dark and sepia swap without
+ * re-rendering. Values mirror packages/design-tokens/src/colors.ts; that file
+ * is the source of truth and these are its RGB triples.
+ */
+@layer base {
+  :root {
+    --gita-background: 251 249 245;
+    --gita-surface: 255 255 255;
+    --gita-surface-raised: 255 255 255;
+    --gita-surface-sunken: 245 241 233;
+    --gita-border: 234 227 214;
+    --gita-border-strong: 218 207 188;
+    --gita-text-primary: 28 27 24;
+    --gita-text-secondary: 61 59 54;
+    --gita-text-muted: 111 108 100;
+    --gita-accent: 185 103 22;
+    --gita-accent-muted: 255 233 206;
+    --gita-accent-contrast: 255 255 255;
+
+    --gita-reader-scale: 1;
+    --gita-reader-leading: 1.75;
+  }
+
+  [data-theme='sepia'] {
+    --gita-background: 244 236 221;
+    --gita-surface: 250 244 232;
+    --gita-surface-raised: 255 251 242;
+    --gita-surface-sunken: 237 226 206;
+    --gita-border: 223 208 180;
+    --gita-border-strong: 203 184 148;
+    --gita-text-primary: 49 40 27;
+    --gita-text-secondary: 90 75 51;
+    --gita-text-muted: 124 106 78;
+    --gita-accent: 143 78 20;
+    --gita-accent-muted: 240 223 192;
+    --gita-accent-contrast: 255 251 242;
+  }
+
+  [data-theme='dark'] {
+    --gita-background: 18 17 15;
+    --gita-surface: 26 24 21;
+    --gita-surface-raised: 35 32 25;
+    --gita-surface-sunken: 13 12 10;
+    --gita-border: 46 42 35;
+    --gita-border-strong: 65 59 49;
+    --gita-text-primary: 237 232 223;
+    --gita-text-secondary: 189 182 169;
+    --gita-text-muted: 140 133 120;
+    --gita-accent: 247 181 99;
+    --gita-accent-muted: 58 42 22;
+    --gita-accent-contrast: 18 17 15;
+  }
+
+  /* Respect the OS preference until the reader chooses explicitly. */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+      --gita-background: 18 17 15;
+      --gita-surface: 26 24 21;
+      --gita-surface-raised: 35 32 25;
+      --gita-surface-sunken: 13 12 10;
+      --gita-border: 46 42 35;
+      --gita-border-strong: 65 59 49;
+      --gita-text-primary: 237 232 223;
+      --gita-text-secondary: 189 182 169;
+      --gita-text-muted: 140 133 120;
+      --gita-accent: 247 181 99;
+      --gita-accent-muted: 58 42 22;
+      --gita-accent-contrast: 18 17 15;
+    }
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  /* Motion is subtle everywhere, and absent for anyone who asks for that. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-background text-text-primary antialiased;
+    font-feature-settings: 'kern', 'liga', 'calt';
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: rgb(var(--gita-accent-muted));
+    color: rgb(var(--gita-text-primary));
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--gita-accent));
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  /*
+   * Devanagari needs more room than Latin at the same nominal size, and the
+   * default line-height clips matras and conjuncts. This is the one place that
+   * gets set, so verse text looks right everywhere it appears.
+   */
+  .verse-sanskrit {
+    font-family: theme('fontFamily.devanagari');
+    font-size: calc(1.3rem * var(--gita-reader-scale));
+    line-height: 1.9;
+    letter-spacing: 0.01em;
+    color: rgb(var(--gita-text-primary));
+  }
+
+  .verse-transliteration {
+    font-family: theme('fontFamily.translit');
+    font-size: calc(1rem * var(--gita-reader-scale));
+    line-height: 1.7;
+    font-style: italic;
+    color: rgb(var(--gita-text-muted));
+  }
+
+  .verse-translation {
+    font-family: theme('fontFamily.serif');
+    font-size: calc(1.0625rem * var(--gita-reader-scale));
+    line-height: var(--gita-reader-leading);
+    color: rgb(var(--gita-text-secondary));
+  }
+
+  .verse-hindi {
+    font-family: theme('fontFamily.devanagari');
+    font-size: calc(1.0625rem * var(--gita-reader-scale));
+    line-height: 1.85;
+    color: rgb(var(--gita-text-secondary));
+  }
+
+  .prose-reader {
+    @apply max-w-prose text-text-secondary;
+    font-family: theme('fontFamily.serif');
+    line-height: var(--gita-reader-leading);
+  }
+
+  .prose-reader p + p {
+    margin-top: 1.1em;
+  }
+
+  /* A hairline rule with a small ornament, used between major sections. */
+  .rule-ornament {
+    @apply relative border-t border-line;
+  }
+
+  .rule-ornament::after {
+    content: '❦';
+    @apply absolute left-1/2 -top-3 -translate-x-1/2 bg-background px-3 text-sm text-gold-500;
+  }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50
+      focus:rounded-md focus:bg-surface focus:px-4 focus:py-2 focus:shadow-card;
+  }
+}

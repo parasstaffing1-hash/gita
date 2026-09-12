@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "noEmit": true,
+    // fetch, AbortController, URLSearchParams and the timer functions are all
+    // standard in browsers and Node 18+, but none are in the ES2022 library
+    // the base config sets, so the DOM typings are what declares them.
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["src/**/*.ts"]
+}

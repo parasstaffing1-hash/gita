@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "bundleName": "gita-verses-dev-placeholder",
+  "description": "DEVELOPMENT PLACEHOLDER - NOT AUTHORITATIVE. These records exist so the reader, search and Ask pipelines can be exercised end to end. The Sanskrit has not been proofread against a named printed edition, and the English renderings are working glosses written for this repository, not a published translation. Every record imports as `draft` and the API will not publish it. Replace with a licence-cleared, proofread edition before launch.",
+  "authoritative": false,
+  "generatedAt": null,
+  "licenses": [
+    {
+      "code": "dev-placeholder",
+      "name": "Development placeholder (not for publication)",
+      "url": null,
+      "redistributable": false,
+      "requiresAttribution": true,
+      "commercialUseAllowed": false,
+      "notes": "DEVELOPMENT PLACEHOLDER - NOT AUTHORITATIVE. These records exist so the reader, search and Ask pipelines can be exercised end to end. The Sanskrit has not been proofread against a named printed edition, and the English renderings are working glosses written for this repository, not a published translation. Every record imports as `draft` and the API will not publish it. Replace with a licence-cleared, proofread edition before launch."
+    }
+  ],
+  "sources": [
+    {
+      "key": "dev-placeholder-verses",
+      "name": "Development placeholder verse set (unverified)",
+      "sourceUrl": null,
+      "author": null,
+      "publication": null,
+      "publicationYear": null,
+      "licenseCode": "dev-placeholder",
+      "copyrightStatus": "unknown",
+      "dateAccessed": null,
+      "reviewer": null,
+      "verificationNotes": "DEVELOPMENT PLACEHOLDER - NOT AUTHORITATIVE. These records exist so the reader, search and Ask pipelines can be exercised end to end. The Sanskrit has not been proofread against a named printed edition, and the English renderings are working glosses written for this repository, not a published translation. Every record imports as `draft` and the API will not publish it. Replace with a licence-cleared, proofread edition before launch."
+    }
+  ],
+  "commentators": [],
+  "verses": [
+    {
+      "chapter": 1,
+      "verse": 1,
+      "verseEnd": null,
+      "speaker": "Dhritarashtra",
+      "texts": [
+        {
+          "script": "devanagari",
+          "text": "धृतराष्ट्र उवाच।\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": true,
+          "verificationStatus": "draft"
+        },
+        {
+          "script": "iast",
+          "text": "dhṛtarāṣṭra uvāca |\ndharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ |\nmāmakāḥ pāṇḍavāś caiva kim akurvata sañjaya ||",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": false,
+          "verificationStatus": "draft"
+        }
+      ],
+      "translations": [
+        {
+          "languageCode": "en",
+          "text": "Dhritarashtra said: On the field of dharma, at Kurukshetra, gathered together and eager to fight - what did my people and the sons of Pandu do, Sanjaya?",
+          "translatorName": "Development placeholder - replace before launch",
+          "style": "literal",
+          "sourceKey": "dev-placeholder-verses",
+          "origin": "curated",
+          "verificationStatus": "draft"
+        }
+      ],
+      "commentaries": [],
+      "words": [],
+      "verificationStatus": "draft"
+    },
+    {
+      "chapter": 2,
+      "verse": 13,
+      "verseEnd": null,
+      "speaker": "Krishna",
+      "texts": [
+        {
+          "script": "devanagari",
+          "text": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा।\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति॥",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": true,
+          "verificationStatus": "draft"
+        },
+        {
+          "script": "iast",
+          "text": "dehino 'smin yathā dehe kaumāraṁ yauvanaṁ jarā |\ntathā dehāntara-prāptir dhīras tatra na muhyati ||",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": false,
+          "verificationStatus": "draft"
+        }
+      ],
+      "translations": [
+        {
+          "languageCode": "en",
+          "text": "As the embodied one passes, in this body, through childhood, youth and age, so it passes to another body. The steady person is not confused by this.",
+          "translatorName": "Development placeholder - replace before launch",
+          "style": "literal",
+          "sourceKey": "dev-placeholder-verses",
+          "origin": "curated",
+          "verificationStatus": "draft"
+        }
+      ],
+      "commentaries": [],
+      "words": [],
+      "verificationStatus": "draft"
+    },
+    {
+      "chapter": 2,
+      "verse": 20,
+      "verseEnd": null,
+      "speaker": "Krishna",
+      "texts": [
+        {
+          "script": "devanagari",
+          "text": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः।\nअजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे॥",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": true,
+          "verificationStatus": "draft"
+        },
+        {
+          "script": "iast",
+          "text": "na jāyate mriyate vā kadācin nāyaṁ bhūtvā bhavitā vā na bhūyaḥ |\najo nityaḥ śāśvato 'yaṁ purāṇo na hanyate hanyamāne śarīre ||",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": false,
+          "verificationStatus": "draft"
+        }
+      ],
+      "translations": [
+        {
+          "languageCode": "en",
+          "text": "It is not born, nor does it ever die; having been, it does not cease to be. Unborn, everlasting, enduring and ancient, it is not slain when the body is slain.",
+          "translatorName": "Development placeholder - replace before launch",
+          "style": "literal",
+          "sourceKey": "dev-placeholder-verses",
+          "origin": "curated",
+          "verificationStatus": "draft"
+        }
+      ],
+      "commentaries": [],
+      "words": [],
+      "verificationStatus": "draft"
+    },
+    {
+      "chapter": 2,
+      "verse": 47,
+      "verseEnd": null,
+      "speaker": "Krishna",
+      "texts": [
+        {
+          "script": "devanagari",
+          "text": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": true,
+          "verificationStatus": "draft"
+        },
+        {
+          "script": "iast",
+          "text": "karmaṇy evādhikāras te mā phaleṣu kadācana |\nmā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi ||",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": false,
+          "verificationStatus": "draft"
+        }
+      ],
+      "translations": [
+        {
+          "languageCode": "en",
+          "text": "You have a claim on the action alone, never on its fruits. Do not act for the sake of the fruit, and do not be attached to inaction.",
+          "translatorName": "Development placeholder - replace before launch",
+          "style": "literal",
+          "sourceKey": "dev-placeholder-verses",
+          "origin": "curated",
+          "verificationStatus": "draft"
+        }
+      ],
+      "commentaries": [],
+      "words": [],
+      "verificationStatus": "draft"
+    },
+    {
+      "chapter": 2,
+      "verse": 62,
+      "verseEnd": null,
+      "speaker": "Krishna",
+      "texts": [
+        {
+          "script": "devanagari",
+          "text": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते।\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते॥",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": true,
+          "verificationStatus": "draft"
+        },
+        {
+          "script": "iast",
+          "text": "dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate |\nsaṅgāt sañjāyate kāmaḥ kāmāt krodho 'bhijāyate ||",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": false,
+          "verificationStatus": "draft"
+        }
+      ],
+      "translations": [
+        {
+          "languageCode": "en",
+          "text": "In one who dwells on objects, attachment to them arises. From attachment desire is born, and from desire, anger.",
+          "translatorName": "Development placeholder - replace before launch",
+          "style": "literal",
+          "sourceKey": "dev-placeholder-verses",
+          "origin": "curated",
+          "verificationStatus": "draft"
+        }
+      ],
+      "commentaries": [],
+      "words": [],
+      "verificationStatus": "draft"
+    },
+    {
+      "chapter": 3,
+      "verse": 35,
+      "verseEnd": null,
+      "speaker": "Krishna",
+      "texts": [
+        {
+          "script": "devanagari",
+          "text": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः॥",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": true,
+          "verificationStatus": "draft"
+        },
+        {
+          "script": "iast",
+          "text": "śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt |\nsva-dharme nidhanaṁ śreyaḥ para-dharmo bhayāvahaḥ ||",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": false,
+          "verificationStatus": "draft"
+        }
+      ],
+      "translations": [
+        {
+          "languageCode": "en",
+          "text": "Better one's own duty, though imperfectly done, than the duty of another done well. Better to die in one's own duty; another's duty brings danger.",
+          "translatorName": "Development placeholder - replace before launch",
+          "style": "literal",
+          "sourceKey": "dev-placeholder-verses",
+          "origin": "curated",
+          "verificationStatus": "draft"
+        }
+      ],
+      "commentaries": [],
+      "words": [],
+      "verificationStatus": "draft"
+    },
+    {
+      "chapter": 4,
+      "verse": 7,
+      "verseEnd": null,
+      "speaker": "Krishna",
+      "texts": [
+        {
+          "script": "devanagari",
+          "text": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": true,
+          "verificationStatus": "draft"
+        },
+        {
+          "script": "iast",
+          "text": "yadā yadā hi dharmasya glānir bhavati bhārata |\nabhyutthānam adharmasya tadātmānaṁ sṛjāmy aham ||",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": false,
+          "verificationStatus": "draft"
+        }
+      ],
+      "translations": [
+        {
+          "languageCode": "en",
+          "text": "Whenever dharma declines and adharma rises, Bharata, then I bring myself forth.",
+          "translatorName": "Development placeholder - replace before launch",
+          "style": "literal",
+          "sourceKey": "dev-placeholder-verses",
+          "origin": "curated",
+          "verificationStatus": "draft"
+        }
+      ],
+      "commentaries": [],
+      "words": [],
+      "verificationStatus": "draft"
+    },
+    {
+      "chapter": 6,
+      "verse": 5,
+      "verseEnd": null,
+      "speaker": "Krishna",
+      "texts": [
+        {
+          "script": "devanagari",
+          "text": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत्।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः॥",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": true,
+          "verificationStatus": "draft"
+        },
+        {
+          "script": "iast",
+          "text": "uddhared ātmanātmānaṁ nātmānam avasādayet |\nātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ ||",
+          "sourceKey": "dev-placeholder-verses",
+          "isPrimary": false,
+          "verificationStatus": "draft"
+        }
+      ],
+      "translations": [
+        {
+          "languageCode": "en",
+          "text": "Lift yourself by yourself; do not let yourself sink. For the self alone is the friend of the self, and the self alone is its enemy.",
+          "translatorName": "Development placeholder - replace before launch",
+          "style": "literal",
+          "sourceKey": "dev-placeholder-verses",
+          "origin": "curated",
+          "verificationStatus": "draft"
+        }
+      ],
+      "commentaries": [],
+      "words": [],
+      "verificationStatus": "draft"
+    }
+  ]
+}

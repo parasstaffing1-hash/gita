@@ -1,0 +1,9 @@
+# Install the API plus the local service packages in editable mode.
+#   python -m venv .venv && .venv/Scripts/activate   (Windows)
+#   pip install -r requirements.txt
+-e .
+-e ../../services/search
+-e ../../services/embeddings
+-e ../../services/ai
+-e ../../services/ingestion
+-e ../../services/audio

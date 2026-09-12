@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "noEmit": true,
+    // `canonical-hash` uses TextEncoder and Web Crypto (`crypto.subtle`). Both
+    // are standard in browsers and in Node 18+, but neither is in the ES2022
+    // library the base config sets, so the DOM typings are what declares them.
+    // This package still ships no DOM-dependent code.
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["src/**/*.ts"]
+}

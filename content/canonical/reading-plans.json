@@ -1,0 +1,1288 @@
+{
+  "schemaVersion": 1,
+  "bundleName": "gita-reading-plans",
+  "description": "Reading plans. Days whose verse list is empty are structural placeholders awaiting curation against the verified dataset; the reader sees the plan structure and the reflection, and the verses fill in as content lands.",
+  "authoritative": false,
+  "generatedAt": null,
+  "licenses": [
+    {
+      "code": "editorial-inhouse",
+      "name": "In-house editorial content",
+      "url": null,
+      "redistributable": true,
+      "requiresAttribution": false,
+      "commercialUseAllowed": true,
+      "notes": "Original prose written for this product. Not scripture."
+    }
+  ],
+  "sources": [
+    {
+      "key": "editorial-plans",
+      "name": "In-house reading plans",
+      "sourceUrl": null,
+      "author": null,
+      "publication": null,
+      "publicationYear": null,
+      "licenseCode": "editorial-inhouse",
+      "copyrightStatus": "public_domain",
+      "dateAccessed": null,
+      "reviewer": null,
+      "verificationNotes": "Plan structure and reflections written for this product."
+    }
+  ],
+  "readingPlans": [
+    {
+      "slug": "7-day-introduction",
+      "title": "7-Day Introduction to the Gita",
+      "titleHindi": "गीता का सात दिवसीय परिचय",
+      "subtitle": "One short reading a day, for a week",
+      "description": "A week-long first pass. Each day is one or two verses and a question, chosen so that by the end you have met the problem the Gita is answering, its central instruction, and enough of its vocabulary to keep reading on your own.",
+      "level": "beginner",
+      "tags": [
+        "beginner",
+        "short",
+        "start-here"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "title": "Why the Gita begins on a battlefield",
+          "intro": "Before any teaching, there is a person who cannot act. Read the opening and notice that the problem is stated at full strength before anyone answers it.",
+          "verseRefs": [
+            "1.1"
+          ],
+          "reflection": "What decision are you currently avoiding, and what makes every option feel wrong?",
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 2,
+          "title": "What does not change",
+          "intro": "The first substantive answer is about what persists through change.",
+          "verseRefs": [
+            "2.13",
+            "2.20"
+          ],
+          "reflection": "What in you feels continuous between the person you were at ten and the person reading this?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 3,
+          "title": "The central instruction",
+          "intro": "The most quoted verse in the Gita, and the easiest to misread as indifference.",
+          "verseRefs": [
+            "2.47"
+          ],
+          "reflection": "Name one piece of work where you are carrying both the effort and the verdict. What would it change to carry only the first?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 4,
+          "title": "How wanting becomes anger",
+          "intro": "A short causal chain that repays slow reading.",
+          "verseRefs": [
+            "2.62"
+          ],
+          "reflection": "Trace one recent flash of anger backwards. Where did it actually start?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 5,
+          "title": "Your work, not someone else's",
+          "intro": "Svadharma: the Gita's answer to comparison.",
+          "verseRefs": [
+            "3.35"
+          ],
+          "reflection": "Whose life are you measuring yours against, and is that comparison telling you anything true?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 6,
+          "title": "Lift yourself by yourself",
+          "intro": "The Gita's most self-reliant verse, from the chapter on meditation.",
+          "verseRefs": [
+            "6.5"
+          ],
+          "reflection": "In what area are you currently your own enemy?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 7,
+          "title": "Where this leaves you",
+          "intro": "Look back over the week. The Gita does not end in agreement; it ends in a decision.",
+          "verseRefs": [
+            "2.47",
+            "3.35"
+          ],
+          "reflection": "What is one thing you will do differently this week, and what result are you willing to stop guaranteeing yourself?",
+          "estimatedMinutes": 12
+        }
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "18-days-one-chapter",
+      "title": "18 Days: One Chapter a Day",
+      "titleHindi": "अठारह दिन: प्रतिदिन एक अध्याय",
+      "subtitle": "The whole Gita, at a chapter a day",
+      "description": "The complete text in eighteen sittings. About twenty minutes a day, more for the longer chapters. Best attempted after a shorter plan, or alongside a commentary.",
+      "level": "intermediate",
+      "tags": [
+        "complete",
+        "structured"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "title": "Chapter 1: The Despondency of Arjuna",
+          "intro": "Read chapter 1 in full (47 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 2,
+          "title": "Chapter 2: The Yoga of Knowledge",
+          "intro": "Read chapter 2 in full (72 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 3,
+          "title": "Chapter 3: The Yoga of Action",
+          "intro": "Read chapter 3 in full (43 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 4,
+          "title": "Chapter 4: Knowledge and the Renunciation of Action",
+          "intro": "Read chapter 4 in full (42 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 5,
+          "title": "Chapter 5: The Yoga of Renunciation",
+          "intro": "Read chapter 5 in full (29 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 6,
+          "title": "Chapter 6: The Yoga of Meditation",
+          "intro": "Read chapter 6 in full (47 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 7,
+          "title": "Chapter 7: Knowledge and Realisation",
+          "intro": "Read chapter 7 in full (30 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 8,
+          "title": "Chapter 8: The Imperishable",
+          "intro": "Read chapter 8 in full (28 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 9,
+          "title": "Chapter 9: Royal Knowledge",
+          "intro": "Read chapter 9 in full (34 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 10,
+          "title": "Chapter 10: Divine Glories",
+          "intro": "Read chapter 10 in full (42 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 11,
+          "title": "Chapter 11: The Universal Form",
+          "intro": "Read chapter 11 in full (55 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 12,
+          "title": "Chapter 12: Devotion",
+          "intro": "Read chapter 12 in full (20 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 13,
+          "title": "Chapter 13: The Field and Its Knower",
+          "intro": "Read chapter 13 in full (34 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 14,
+          "title": "Chapter 14: The Three Gunas",
+          "intro": "Read chapter 14 in full (27 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 15,
+          "title": "Chapter 15: The Supreme Person",
+          "intro": "Read chapter 15 in full (20 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 16,
+          "title": "Chapter 16: The Divine and the Demoniac",
+          "intro": "Read chapter 16 in full (24 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 17,
+          "title": "Chapter 17: The Three Kinds of Faith",
+          "intro": "Read chapter 17 in full (28 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        },
+        {
+          "dayNumber": 18,
+          "title": "Chapter 18: Liberation",
+          "intro": "Read chapter 18 in full (78 verses). Take it slowly; the chapter summary and key verses are there if you want an anchor first.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 20
+        }
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "21-days-karma-yoga",
+      "title": "21 Days of Karma Yoga",
+      "titleHindi": "इक्कीस दिन कर्मयोग",
+      "subtitle": "Working without being ruled by results",
+      "description": "Three weeks on the Gita's teaching about action. Deliberately repetitive: the verses return, and the reflection questions change. The aim is to make one idea usable, not to cover ground.",
+      "level": "intermediate",
+      "tags": [
+        "karma-yoga",
+        "practice",
+        "work"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "title": "Action cannot be avoided",
+          "intro": "Start from the observation that nobody is ever inactive.",
+          "verseRefs": [
+            "2.47"
+          ],
+          "reflection": "List everything you did today that you would not call 'work'. Was any of it inaction?",
+          "estimatedMinutes": 12
+        },
+        {
+          "dayNumber": 2,
+          "title": "The claim on the action",
+          "intro": "Read 2.47 again, slowly, one clause at a time.",
+          "verseRefs": [
+            "2.47"
+          ],
+          "reflection": "Which of the four clauses is hardest for you?",
+          "estimatedMinutes": 12
+        },
+        {
+          "dayNumber": 3,
+          "title": "What attachment costs",
+          "intro": "The chain from dwelling to anger.",
+          "verseRefs": [
+            "2.62"
+          ],
+          "reflection": "What have you been dwelling on this week?",
+          "estimatedMinutes": 12
+        },
+        {
+          "dayNumber": 4,
+          "title": "Your own work",
+          "intro": "Svadharma against paradharma.",
+          "verseRefs": [
+            "3.35"
+          ],
+          "reflection": "What work is genuinely yours right now?",
+          "estimatedMinutes": 12
+        },
+        {
+          "dayNumber": 5,
+          "title": "Effort without guarantee",
+          "intro": "Holding effort and outcome apart in practice.",
+          "verseRefs": [
+            "2.47"
+          ],
+          "reflection": "Where are you withholding effort because the outcome is uncertain?",
+          "estimatedMinutes": 12
+        },
+        {
+          "dayNumber": 6,
+          "title": "The self as friend",
+          "intro": "Self-effort as the mechanism.",
+          "verseRefs": [
+            "6.5"
+          ],
+          "reflection": "What would treating yourself as an ally look like today?",
+          "estimatedMinutes": 12
+        },
+        {
+          "dayNumber": 7,
+          "title": "Review",
+          "intro": "Look back at the first week.",
+          "verseRefs": [
+            "2.47",
+            "3.35"
+          ],
+          "reflection": "What has shifted, if anything?",
+          "estimatedMinutes": 12
+        },
+        {
+          "dayNumber": 8,
+          "title": "Day 8",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 9,
+          "title": "Day 9",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 10,
+          "title": "Day 10",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 11,
+          "title": "Day 11",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 12,
+          "title": "Day 12",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 13,
+          "title": "Day 13",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 14,
+          "title": "Day 14",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 15,
+          "title": "Day 15",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 16,
+          "title": "Day 16",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 17,
+          "title": "Day 17",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 18,
+          "title": "Day 18",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 19,
+          "title": "Day 19",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 20,
+          "title": "Day 20",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 21,
+          "title": "Day 21",
+          "intro": "Continue with the verses from the first week, in the order that is most useful to you. Repetition is the point of this plan, not novelty.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        }
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "30-day-gita-journey",
+      "title": "30-Day Gita Journey",
+      "titleHindi": "तीस दिन की गीता यात्रा",
+      "subtitle": "A month with the text",
+      "description": "A month of shorter daily readings that move through the Gita thematically rather than sequentially, so related ideas arrive together.",
+      "level": "beginner",
+      "tags": [
+        "month",
+        "thematic"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "title": "Day 1",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 2,
+          "title": "Day 2",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 3,
+          "title": "Day 3",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 4,
+          "title": "Day 4",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 5,
+          "title": "Day 5",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 6,
+          "title": "Day 6",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 7,
+          "title": "Day 7",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 8,
+          "title": "Day 8",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 9,
+          "title": "Day 9",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 10,
+          "title": "Day 10",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 11,
+          "title": "Day 11",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 12,
+          "title": "Day 12",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 13,
+          "title": "Day 13",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 14,
+          "title": "Day 14",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 15,
+          "title": "Day 15",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 16,
+          "title": "Day 16",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 17,
+          "title": "Day 17",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 18,
+          "title": "Day 18",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 19,
+          "title": "Day 19",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 20,
+          "title": "Day 20",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 21,
+          "title": "Day 21",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 22,
+          "title": "Day 22",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 23,
+          "title": "Day 23",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 24,
+          "title": "Day 24",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 25,
+          "title": "Day 25",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 26,
+          "title": "Day 26",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 27,
+          "title": "Day 27",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 28,
+          "title": "Day 28",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 29,
+          "title": "Day 29",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 30,
+          "title": "Day 30",
+          "intro": "Reading assignment to be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        }
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "gita-for-students",
+      "title": "Gita for Students",
+      "titleHindi": "विद्यार्थियों के लिए गीता",
+      "subtitle": "Study, examinations and steadiness",
+      "description": "Fourteen short readings on the gap between preparation and result - the gap a student lives in constantly.",
+      "level": "beginner",
+      "tags": [
+        "students",
+        "study",
+        "focus"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "title": "Effort and result",
+          "intro": "The verse that separates them.",
+          "verseRefs": [
+            "2.47"
+          ],
+          "reflection": "What are you currently preparing for, and what part of it is not up to you?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 2,
+          "title": "Lift yourself",
+          "intro": "Self-reliance in study.",
+          "verseRefs": [
+            "6.5"
+          ],
+          "reflection": "What is one study habit you keep meaning to change?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 3,
+          "title": "Day 3",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 4,
+          "title": "Day 4",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 5,
+          "title": "Day 5",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 6,
+          "title": "Day 6",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 7,
+          "title": "Day 7",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 8,
+          "title": "Day 8",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 9,
+          "title": "Day 9",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 10,
+          "title": "Day 10",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 11,
+          "title": "Day 11",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 12,
+          "title": "Day 12",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 13,
+          "title": "Day 13",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 14,
+          "title": "Day 14",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        }
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "gita-for-leadership",
+      "title": "Gita for Leadership",
+      "titleHindi": "नेतृत्व के लिए गीता",
+      "subtitle": "Responsibility, example and hard calls",
+      "description": "Fourteen readings for people who carry decisions on behalf of others. The Gita's protagonist is, after all, someone who has to act while others watch.",
+      "level": "intermediate",
+      "tags": [
+        "leadership",
+        "work",
+        "decisions"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "title": "Whose work is it",
+          "intro": "Svadharma applied to a role.",
+          "verseRefs": [
+            "3.35"
+          ],
+          "reflection": "What part of your role are you performing because it is impressive rather than because it is yours?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 2,
+          "title": "Deciding under conflict",
+          "intro": "Every option costs something.",
+          "verseRefs": [
+            "1.1"
+          ],
+          "reflection": "What decision are you postponing because both outcomes are bad?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 3,
+          "title": "Day 3",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 4,
+          "title": "Day 4",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 5,
+          "title": "Day 5",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 6,
+          "title": "Day 6",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 7,
+          "title": "Day 7",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 8,
+          "title": "Day 8",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 9,
+          "title": "Day 9",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 10,
+          "title": "Day 10",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 11,
+          "title": "Day 11",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 12,
+          "title": "Day 12",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 13,
+          "title": "Day 13",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 14,
+          "title": "Day 14",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 10
+        }
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "gita-for-discipline",
+      "title": "Gita for Discipline",
+      "titleHindi": "अनुशासन के लिए गीता",
+      "subtitle": "Practice and dispassion",
+      "description": "Twenty-one days on abhyasa and vairagya - the two words Krishna gives when Arjuna says the mind is as hard to hold as the wind.",
+      "level": "intermediate",
+      "tags": [
+        "discipline",
+        "habit",
+        "practice"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "title": "The self as its own instrument",
+          "intro": "Where discipline actually comes from.",
+          "verseRefs": [
+            "6.5"
+          ],
+          "reflection": "What is the smallest version of the practice you could keep for 21 days?",
+          "estimatedMinutes": 10
+        },
+        {
+          "dayNumber": 2,
+          "title": "Day 2",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 3,
+          "title": "Day 3",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 4,
+          "title": "Day 4",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 5,
+          "title": "Day 5",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 6,
+          "title": "Day 6",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 7,
+          "title": "Day 7",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 8,
+          "title": "Day 8",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 9,
+          "title": "Day 9",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 10,
+          "title": "Day 10",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 11,
+          "title": "Day 11",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 12,
+          "title": "Day 12",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 13,
+          "title": "Day 13",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 14,
+          "title": "Day 14",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 15,
+          "title": "Day 15",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 16,
+          "title": "Day 16",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 17,
+          "title": "Day 17",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 18,
+          "title": "Day 18",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 19,
+          "title": "Day 19",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 20,
+          "title": "Day 20",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 21,
+          "title": "Day 21",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        }
+      ],
+      "verificationStatus": "draft"
+    },
+    {
+      "slug": "gita-for-stress",
+      "title": "Gita for Stress",
+      "titleHindi": "तनाव के लिए गीता",
+      "subtitle": "Ten short readings for a heavy period",
+      "description": "Ten short readings for when there is too much and it all feels like yours to carry. This is a reading plan, not treatment; if things are severe, please talk to someone.",
+      "level": "beginner",
+      "tags": [
+        "stress",
+        "short",
+        "calm"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "title": "What is yours to carry",
+          "intro": "The separation of effort from outcome.",
+          "verseRefs": [
+            "2.47"
+          ],
+          "reflection": "Write down what you are carrying. Mark which parts you actually control.",
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 2,
+          "title": "Where the pressure starts",
+          "intro": "Dwelling, attachment, wanting.",
+          "verseRefs": [
+            "2.62"
+          ],
+          "reflection": "What has your mind been circling?",
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 3,
+          "title": "Do not let yourself sink",
+          "intro": "Self-effort, stated plainly.",
+          "verseRefs": [
+            "6.5"
+          ],
+          "reflection": "What is one small thing that would make tomorrow slightly easier?",
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 4,
+          "title": "Day 4",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 5,
+          "title": "Day 5",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 6,
+          "title": "Day 6",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 7,
+          "title": "Day 7",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 8,
+          "title": "Day 8",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 9,
+          "title": "Day 9",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        },
+        {
+          "dayNumber": 10,
+          "title": "Day 10",
+          "intro": "To be curated once the verified verse dataset is imported.",
+          "verseRefs": [],
+          "reflection": null,
+          "estimatedMinutes": 8
+        }
+      ],
+      "verificationStatus": "draft"
+    }
+  ]
+}

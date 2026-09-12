@@ -1,0 +1,32 @@
+{
+  "_comment": "Shared fixtures for the Python and TypeScript verse-reference parsers. Both must agree on every case.",
+  "valid": [
+    { "input": "2.47", "chapter": 2, "verse": 47 },
+    { "input": "2:47", "chapter": 2, "verse": 47 },
+    { "input": "2-47", "chapter": 2, "verse": 47 },
+    { "input": "2 47", "chapter": 2, "verse": 47 },
+    { "input": "bg 2.47", "chapter": 2, "verse": 47 },
+    { "input": "BG2.47", "chapter": 2, "verse": 47 },
+    { "input": "gita 2.47", "chapter": 2, "verse": 47 },
+    { "input": "chapter 2 verse 47", "chapter": 2, "verse": 47 },
+    { "input": "ch 2 v 47", "chapter": 2, "verse": 47 },
+    { "input": "adhyaya 2 shloka 47", "chapter": 2, "verse": 47 },
+    { "input": "२.४७", "chapter": 2, "verse": 47 },
+    { "input": "18.66", "chapter": 18, "verse": 66 },
+    { "input": "1.1", "chapter": 1, "verse": 1 },
+    { "input": "  2.47  ", "chapter": 2, "verse": 47 },
+    { "input": "chapter 12", "chapter": 12, "verse": null }
+  ],
+  "invalid": [
+    "karma",
+    "what does the gita say about duty?",
+    "control mind",
+    "failure ka dar",
+    "kṛṣṇa",
+    "कर्म",
+    "",
+    "   ",
+    "2.47.3",
+    "chapter twenty"
+  ]
+}

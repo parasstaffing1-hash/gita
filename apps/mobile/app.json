@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Gita",
+    "slug": "gita",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "gita",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#FBF9F5",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gita.app",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.gita.app",
+      "adaptiveIcon": { "backgroundColor": "#FBF9F5" },
+      "edgeToEdgeEnabled": true,
+      "permissions": ["INTERNET", "VIBRATE", "RECEIVE_BOOT_COMPLETED", "FOREGROUND_SERVICE"]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-notifications",
+        {
+          "color": "#B96716"
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Save the verse cards you make to your photo library.",
+          "savePhotosPermission": "Save the verse cards you make to your photo library.",
+          "isAccessMediaLocationEnabled": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": { "projectId": "00000000-0000-0000-0000-000000000000" }
+    }
+  }
+}

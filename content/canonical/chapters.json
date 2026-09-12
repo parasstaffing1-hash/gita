@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "bundleName": "gita-chapter-metadata-dev",
+  "description": "Chapter metadata for the eighteen chapters: Sanskrit and English titles, verse counts, and editorial summaries. The summaries are editorial prose written for this product, not translated scripture. NOT YET VERIFIED against a printed edition -- authoritative is false, so every record imports as draft.",
+  "authoritative": false,
+  "generatedAt": null,
+  "licenses": [
+    {
+      "code": "editorial-inhouse",
+      "name": "In-house editorial content",
+      "url": null,
+      "redistributable": true,
+      "requiresAttribution": false,
+      "commercialUseAllowed": true,
+      "notes": "Original prose written for this product. Not scripture."
+    }
+  ],
+  "sources": [
+    {
+      "key": "dev-chapter-metadata",
+      "name": "Development chapter metadata (unverified)",
+      "sourceUrl": null,
+      "author": null,
+      "publication": null,
+      "publicationYear": null,
+      "licenseCode": "editorial-inhouse",
+      "copyrightStatus": "public_domain",
+      "dateAccessed": null,
+      "reviewer": null,
+      "verificationNotes": "PLACEHOLDER. Chapter titles and verse counts follow the commonly printed 700-verse recension (chapter 13 counted as 34 verses). They have NOT been proofread against a specific printed edition. Before this bundle may be marked authoritative, a reviewer must name the edition used and check every title and count against it."
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "nameSanskrit": "अर्जुनविषादयोग",
+      "nameTransliteration": "Arjuna Viṣāda Yoga",
+      "nameEnglish": "The Despondency of Arjuna",
+      "nameHindi": "अर्जुन विषाद योग",
+      "verseCount": 47,
+      "summary": "Two armies face each other at Kurukshetra. Arjuna asks Krishna to drive his chariot between them, sees his teachers and kinsmen on both sides, and is overcome. He puts down his bow. The chapter is the statement of the problem the rest of the Gita answers: what do you do when every available action looks wrong?",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Grief and moral paralysis are treated as a real starting point, not a failure of nerve",
+        "Arjuna's arguments against fighting are stated at full strength before any reply",
+        "The setting is a battlefield, but the crisis is a crisis of duty"
+      ],
+      "keyConcepts": [
+        "vishada",
+        "dharma",
+        "kula-dharma",
+        "grief"
+      ],
+      "keyVerses": [
+        "1.1",
+        "1.21",
+        "1.28",
+        "1.47"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 2,
+      "nameSanskrit": "साङ्ख्ययोग",
+      "nameTransliteration": "Sāṅkhya Yoga",
+      "nameEnglish": "The Yoga of Knowledge",
+      "nameHindi": "सांख्य योग",
+      "verseCount": 72,
+      "summary": "Krishna answers. He distinguishes the imperishable self from the perishable body, explains that duty must still be done, and introduces the central idea of acting without grasping at the result. The chapter closes with the portrait of the sthitaprajña, the person of steady wisdom.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "The self is not the body and is not destroyed when the body is",
+        "Do your work; you have a claim on the action, not on its fruit",
+        "Steadiness of mind is described concretely, as a way of living"
+      ],
+      "keyConcepts": [
+        "atman",
+        "sthitaprajna",
+        "karma-yoga",
+        "sankhya",
+        "equanimity"
+      ],
+      "keyVerses": [
+        "2.13",
+        "2.20",
+        "2.47",
+        "2.62",
+        "2.70"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 3,
+      "nameSanskrit": "कर्मयोग",
+      "nameTransliteration": "Karma Yoga",
+      "nameEnglish": "The Yoga of Action",
+      "nameHindi": "कर्म योग",
+      "verseCount": 43,
+      "summary": "If understanding is higher, why act at all? Krishna's reply: no one can stay actionless for even a moment, so the question is not whether to act but how. Action offered as yajna, without personal grasping, does not bind.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Withdrawal from action is not available; nobody is ever inactive",
+        "Action done as offering rather than as acquisition does not entangle",
+        "Desire and anger are named as what actually drives compulsive action"
+      ],
+      "keyConcepts": [
+        "karma",
+        "yajna",
+        "svadharma",
+        "desire"
+      ],
+      "keyVerses": [
+        "3.8",
+        "3.19",
+        "3.35",
+        "3.37"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 4,
+      "nameSanskrit": "ज्ञानकर्मसंन्यासयोग",
+      "nameTransliteration": "Jñāna Karma Sannyāsa Yoga",
+      "nameEnglish": "The Yoga of Knowledge and the Renunciation of Action",
+      "nameHindi": "ज्ञान कर्म संन्यास योग",
+      "verseCount": 42,
+      "summary": "Krishna describes the lineage of this teaching and speaks of taking birth in age after age when righteousness declines. Action, inaction and wrong action are distinguished, and knowledge is presented as what makes action clean.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "The teaching is presented as received and transmitted, not invented",
+        "Seeing inaction in action, and action in inaction",
+        "Knowledge as the fire in which the binding quality of action is consumed"
+      ],
+      "keyConcepts": [
+        "avatara",
+        "jnana",
+        "akarma",
+        "sacrifice"
+      ],
+      "keyVerses": [
+        "4.7",
+        "4.8",
+        "4.18",
+        "4.38"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 5,
+      "nameSanskrit": "कर्मसंन्यासयोग",
+      "nameTransliteration": "Karma Sannyāsa Yoga",
+      "nameEnglish": "The Yoga of Renunciation",
+      "nameHindi": "कर्म संन्यास योग",
+      "verseCount": 29,
+      "summary": "Arjuna asks which is better, renunciation or action. Krishna answers that both lead to the same place, but that action performed in the right spirit is the more practicable path.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Renunciation and disciplined action arrive at the same destination",
+        "Acting while inwardly unattached, like a lotus leaf untouched by water",
+        "Peace is described as the fruit of relinquishing the claim on results"
+      ],
+      "keyConcepts": [
+        "sannyasa",
+        "detachment",
+        "peace"
+      ],
+      "keyVerses": [
+        "5.2",
+        "5.10",
+        "5.29"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 6,
+      "nameSanskrit": "आत्मसंयमयोग",
+      "nameTransliteration": "Ātma Saṁyama Yoga",
+      "nameEnglish": "The Yoga of Meditation",
+      "nameHindi": "आत्म संयम योग",
+      "verseCount": 47,
+      "summary": "The practical chapter on meditation: posture, place, moderation in food and sleep, and what to do with a mind that will not settle. Arjuna objects that the mind is as hard to hold as the wind; Krishna agrees, and says it is done by practice and dispassion.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "The mind is both the obstacle and the instrument",
+        "Moderation in eating, sleeping, working and resting is part of the practice",
+        "Krishna concedes the difficulty rather than dismissing it"
+      ],
+      "keyConcepts": [
+        "dhyana",
+        "abhyasa",
+        "vairagya",
+        "self-control"
+      ],
+      "keyVerses": [
+        "6.5",
+        "6.19",
+        "6.34",
+        "6.35"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 7,
+      "nameSanskrit": "ज्ञानविज्ञानयोग",
+      "nameTransliteration": "Jñāna Vijñāna Yoga",
+      "nameEnglish": "The Yoga of Knowledge and Realisation",
+      "nameHindi": "ज्ञान विज्ञान योग",
+      "verseCount": 30,
+      "summary": "Krishna describes the higher and lower natures, the divine as the thread on which everything is strung, and the four kinds of people who turn towards the divine.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Everything perceptible rests on something that is not perceptible",
+        "Four kinds of seekers: the distressed, the curious, the seeker of gain, the wise",
+        "Maya as what makes the underlying reality hard to see"
+      ],
+      "keyConcepts": [
+        "maya",
+        "prakriti",
+        "purusha",
+        "devotion"
+      ],
+      "keyVerses": [
+        "7.7",
+        "7.14",
+        "7.16",
+        "7.19"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 8,
+      "nameSanskrit": "अक्षरब्रह्मयोग",
+      "nameTransliteration": "Akṣara Brahma Yoga",
+      "nameEnglish": "The Yoga of the Imperishable",
+      "nameHindi": "अक्षर ब्रह्म योग",
+      "verseCount": 28,
+      "summary": "Arjuna asks a series of direct questions about Brahman, karma and what happens at death. Krishna answers, and describes the state of mind at the last moment.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Definitions of Brahman, adhyatma, karma and the perishable",
+        "What is held in the mind at the end shapes what follows",
+        "Steady remembrance as a practice, not a deathbed exercise"
+      ],
+      "keyConcepts": [
+        "brahman",
+        "aksharam",
+        "om",
+        "remembrance"
+      ],
+      "keyVerses": [
+        "8.3",
+        "8.5",
+        "8.6",
+        "8.14"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 9,
+      "nameSanskrit": "राजविद्याराजगुह्ययोग",
+      "nameTransliteration": "Rāja Vidyā Rāja Guhya Yoga",
+      "nameEnglish": "The Yoga of Royal Knowledge",
+      "nameHindi": "राजविद्या राजगुह्य योग",
+      "verseCount": 34,
+      "summary": "Called the most secret knowledge and the most direct. Krishna describes sustaining all beings without being contained by them, and states that a leaf, a flower, fruit or water offered with devotion is enough.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "The offering matters more than its cost",
+        "Nobody is excluded from the path by birth or circumstance",
+        "The divine as impartial, yet present to those who turn towards it"
+      ],
+      "keyConcepts": [
+        "bhakti",
+        "surrender",
+        "sustaining"
+      ],
+      "keyVerses": [
+        "9.22",
+        "9.26",
+        "9.29",
+        "9.34"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 10,
+      "nameSanskrit": "विभूतियोग",
+      "nameTransliteration": "Vibhūti Yoga",
+      "nameEnglish": "The Yoga of Divine Glories",
+      "nameHindi": "विभूति योग",
+      "verseCount": 42,
+      "summary": "Arjuna asks how to recognise the divine in the world. Krishna answers with a long catalogue of the foremost of each kind, and adds that whatever is glorious anywhere is a spark of the same splendour.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Recognition through what is highest in each category",
+        "The list is offered as a way of seeing, not as an inventory",
+        "Whatever is excellent points beyond itself"
+      ],
+      "keyConcepts": [
+        "vibhuti",
+        "immanence",
+        "wonder"
+      ],
+      "keyVerses": [
+        "10.8",
+        "10.20",
+        "10.41"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 11,
+      "nameSanskrit": "विश्वरूपदर्शनयोग",
+      "nameTransliteration": "Viśvarūpa Darśana Yoga",
+      "nameEnglish": "The Vision of the Universal Form",
+      "nameHindi": "विश्वरूप दर्शन योग",
+      "verseCount": 55,
+      "summary": "Arjuna asks to see directly. He is given the sight to do so, and what he sees terrifies him: all worlds, all beings, time itself devouring. He asks for the familiar form back.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "The vision is granted, and it is not comfortable",
+        "Time is named as the destroyer already at work",
+        "Arjuna's fear and his plea for the human form are recorded without embarrassment"
+      ],
+      "keyConcepts": [
+        "vishvarupa",
+        "time",
+        "awe",
+        "kala"
+      ],
+      "keyVerses": [
+        "11.12",
+        "11.32",
+        "11.55"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 12,
+      "nameSanskrit": "भक्तियोग",
+      "nameTransliteration": "Bhakti Yoga",
+      "nameEnglish": "The Yoga of Devotion",
+      "nameHindi": "भक्ति योग",
+      "verseCount": 20,
+      "summary": "Arjuna asks who is further along: those who worship the personal or the unmanifest. Krishna answers, then gives a descending ladder of practices, ending with the qualities of one who is dear to him.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "A practical ladder: if you cannot do this, then do that",
+        "The unmanifest path is described as harder for embodied beings",
+        "The chapter ends in character, not in metaphysics"
+      ],
+      "keyConcepts": [
+        "bhakti",
+        "practice",
+        "qualities"
+      ],
+      "keyVerses": [
+        "12.5",
+        "12.8",
+        "12.12",
+        "12.13"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 13,
+      "nameSanskrit": "क्षेत्रक्षेत्रज्ञविभागयोग",
+      "nameTransliteration": "Kṣetra Kṣetrajña Vibhāga Yoga",
+      "nameEnglish": "The Field and the Knower of the Field",
+      "nameHindi": "क्षेत्र क्षेत्रज्ञ विभाग योग",
+      "verseCount": 34,
+      "summary": "The body is the field; that which knows it is the knower. Krishna lists what constitutes the field, describes real knowledge as a set of dispositions rather than information, and distinguishes prakriti from purusha.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Knowledge described as humility, honesty and steadiness, not data",
+        "The field and its knower distinguished carefully",
+        "Prakriti acts; purusha experiences"
+      ],
+      "keyConcepts": [
+        "kshetra",
+        "prakriti",
+        "purusha",
+        "jnana"
+      ],
+      "keyVerses": [
+        "13.1",
+        "13.7",
+        "13.12"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 14,
+      "nameSanskrit": "गुणत्रयविभागयोग",
+      "nameTransliteration": "Guṇatraya Vibhāga Yoga",
+      "nameEnglish": "The Three Gunas",
+      "nameHindi": "गुणत्रय विभाग योग",
+      "verseCount": 27,
+      "summary": "Sattva, rajas and tamas: how each binds, how to recognise which is dominant, and what it looks like to go beyond all three.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Three modes as a diagnostic for one's own state",
+        "Even sattva binds, by attachment to happiness and knowledge",
+        "The one who has gone beyond is described by behaviour, not by claim"
+      ],
+      "keyConcepts": [
+        "gunas",
+        "sattva",
+        "rajas",
+        "tamas"
+      ],
+      "keyVerses": [
+        "14.5",
+        "14.11",
+        "14.22"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 15,
+      "nameSanskrit": "पुरुषोत्तमयोग",
+      "nameTransliteration": "Puruṣottama Yoga",
+      "nameEnglish": "The Yoga of the Supreme Person",
+      "nameHindi": "पुरुषोत्तम योग",
+      "verseCount": 20,
+      "summary": "The image of the ashvattha tree with roots above and branches below, to be cut with the axe of non-attachment. Then the three: the perishable, the imperishable, and the supreme person beyond both.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "A single sustained image for the world as it is experienced",
+        "Non-attachment as the tool, not aversion",
+        "Three levels distinguished: kshara, akshara, purushottama"
+      ],
+      "keyConcepts": [
+        "ashvattha",
+        "purushottama",
+        "detachment"
+      ],
+      "keyVerses": [
+        "15.1",
+        "15.5",
+        "15.15"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 16,
+      "nameSanskrit": "दैवासुरसम्पद्विभागयोग",
+      "nameTransliteration": "Daivāsura Sampad Vibhāga Yoga",
+      "nameEnglish": "The Divine and the Demoniac",
+      "nameHindi": "दैवासुर सम्पद् विभाग योग",
+      "verseCount": 24,
+      "summary": "Two sets of tendencies are laid out side by side: fearlessness, honesty and restraint on one side; arrogance, harshness and self-absorption on the other. The chapter ends by pointing to scripture as the standard for what to do.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Two lists of dispositions, described concretely",
+        "Desire, anger and greed named as the three gates",
+        "A standard outside one's own preference is proposed"
+      ],
+      "keyConcepts": [
+        "daivi-sampad",
+        "asuri-sampad",
+        "restraint"
+      ],
+      "keyVerses": [
+        "16.1",
+        "16.21",
+        "16.24"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 17,
+      "nameSanskrit": "श्रद्धात्रयविभागयोग",
+      "nameTransliteration": "Śraddhātraya Vibhāga Yoga",
+      "nameEnglish": "The Three Kinds of Faith",
+      "nameHindi": "श्रद्धात्रय विभाग योग",
+      "verseCount": 28,
+      "summary": "Faith, food, sacrifice, austerity and giving are each sorted by guna. The chapter is unusually practical: it describes what sattvic austerity of speech and body actually looks like.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "A person is described as being made of their faith",
+        "Austerity of body, speech and mind, each defined",
+        "Giving classified by when, to whom and in what spirit"
+      ],
+      "keyConcepts": [
+        "shraddha",
+        "tapas",
+        "dana",
+        "gunas"
+      ],
+      "keyVerses": [
+        "17.3",
+        "17.15",
+        "17.20"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    },
+    {
+      "number": 18,
+      "nameSanskrit": "मोक्षसंन्यासयोग",
+      "nameTransliteration": "Mokṣa Sannyāsa Yoga",
+      "nameEnglish": "The Yoga of Liberation",
+      "nameHindi": "मोक्ष संन्यास योग",
+      "verseCount": 78,
+      "summary": "The longest chapter gathers the threads: renunciation and relinquishment distinguished, the five factors in any action, knowledge, work and doer sorted by guna, and svadharma reaffirmed. It ends with Krishna's final word and Arjuna taking up his bow.",
+      "summaryHindi": null,
+      "majorTeachings": [
+        "Tyaga (relinquishing the fruit) distinguished from sannyasa (renouncing the act)",
+        "One's own duty done imperfectly is better than another's done well",
+        "The dialogue closes with a decision, not with agreement in the abstract"
+      ],
+      "keyConcepts": [
+        "moksha",
+        "tyaga",
+        "svadharma",
+        "surrender"
+      ],
+      "keyVerses": [
+        "18.46",
+        "18.47",
+        "18.63",
+        "18.66",
+        "18.78"
+      ],
+      "sourceKey": "dev-chapter-metadata",
+      "verificationStatus": "draft"
+    }
+  ]
+}

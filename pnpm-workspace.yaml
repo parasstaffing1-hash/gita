@@ -1,0 +1,23 @@
+packages:
+  - "apps/web"
+  - "apps/admin"
+  - "apps/mobile"
+  - "packages/*"
+
+allowBuilds:
+  esbuild: set this to true or false
+  unrs-resolver: set this to true or false
+
+# Build scripts are blocked by default in pnpm 10+. These two are native
+# binaries that legitimately need a postinstall (esbuild ships a platform
+# binary, unrs-resolver is a Rust addon used by the ESLint resolver).
+# Everything else stays blocked.
+onlyBuiltDependencies:
+  - esbuild
+  - unrs-resolver
+
+# Babel resolves a preset relative to the file it is transforming. Without this
+# a file inside node_modules could pick up babel-preset-expo 13.2.5 (the SDK 54
+# line), which expects Reanimated 4's worklets plugin and fails under SDK 53.
+overrides:
+  babel-preset-expo: ~13.0.0
